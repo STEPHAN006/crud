@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 
 // Composant principal de gestion des élèves
 function GestionEleves() {
@@ -15,7 +15,7 @@ function GestionEleves() {
         'Histoire-Géo': 14,
         'Anglais': 17
       }
-    },s
+    },
     {
       id: 2,
       nom: 'Martin',
